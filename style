@@ -1,32 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-    <style>
-        h2 {
-            color:blue;
-            font-size: 36px;
-        }
-        p{
-            color:black;
-            font-size: 30px;
-        }
-    </style>
-</head>
-<body>
-    <h1 style="color:pink;font-family: 'Courier New', Courier, monospace; font-size: 40px;"> Judul Artikel</h1>
-    <p style="color:black;font-size: 30px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-         Fugit dolorum recusandae adipisci omnis quis nostrum?</p>
-         <h2>jadi...</h2>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos molestias earum autem delectus ducimus.
-             Consequuntur quae a alias distinctio quisquam neque, dicta deleniti quod fugit consequatur repellendus. Eos, eius!</p
-            <h3>tunggu!!</h3>  
-             <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                Porro minima necessitatibus amet deserunt earum nobis, corporis rerum dicta quidem autem eligendi. 
-                Aliquam aspernatur ex odio, qui nam aut. Modi, eum?</P>
-                
-</body>
-</html>
+/*HEADER STYLE*/
+header{
+    text-align:  center;
+    padding: 20px
+}
+/*navigation menu style*/
+nav {
+    text-align: center;
+    word-spacing: 30px;
+    padding: 10px;
+}
+/*creating the two-column layout*/
+*{
+    box-sizing:border-box;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.post-text-box {
+    flex: 70%
+    padding= 20px;
+}
+.profil{
+    flex :70%
+    padding=20px;
+}
+/* profil immage and heading styke */
+.profile img {
+    width: 120px;
+    display: block;
+    margin-left:0;
+    margin-right: 0;
+}
+.profil h1{
+    text-align: center;
+}
