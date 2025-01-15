@@ -1,0 +1,12 @@
+H1,p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    text-align: center;
+    color:blueviolet;
+}
+.JUDUL_ARTIKEL,.isi_artikel  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    color:darkgreen;
+}
