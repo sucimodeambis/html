@@ -1,0 +1,18 @@
+#container-transition {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button {
+    border-radius: 8px;
+    border:none ;
+    color: white;
+    background-color: black;
+    padding: 16px 24px;
+    font-size: 14px;
+    text-align: center;
+}
